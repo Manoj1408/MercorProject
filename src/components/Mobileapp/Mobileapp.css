@@ -1,0 +1,264 @@
+.mobileapp {
+    width: 100vw;
+    /* overflow: hidden; */
+    margin: 5px 20px;
+}
+
+.mobileapp .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mobileapp .top img {
+    height: 30px;
+}
+
+.mobileapp .top .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileapp .top .heading h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.mobileapp .top .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.mobileapp .top .details img {
+    margin: 0px 5px;
+}
+
+.mobileapp .filter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mobileapp .boards {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    margin: 10px 10px;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 25vw; */
+    width: 395px;
+    background-color: #F5F5F5;
+    margin: 5px 5px;
+    border-radius: 10px;
+
+}
+
+.cards .head {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.cards .head P {
+    margin: 10px;
+    padding: 4px;
+    border-radius: 40px;
+    background-color: #E0E0E0;
+    ;
+}
+
+.cards h3 {
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    /* overflow-y: scroll; */
+    margin: 10px 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .status {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.onlycards {
+    overflow-y: scroll;
+    height: 54vh;
+}
+
+.onlycards::-webkit-scrollbar {
+    display: none;
+}
+
+.imge {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.imge img {
+    width: 100%;
+    margin: 5px;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.files {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.files div {
+    display: flex;
+    margin: 3px;
+}
+
+.files div img {
+    margin: 0px 3px;
+}
+
+.files div p {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    /* margin-top: 20px; */
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search .left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search .left input {
+    padding: 15px 10px;
+    padding-left: 10px;
+    width: 30vw;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+}
+
+.search .left input::placeholder {
+    padding: 5px 20px;
+}
+
+.search .left img {
+    position: absolute;
+    left: 5px;
+    /* top: 4px; */
+
+}
+
+.search .right {
+    display: flex;
+    flex-direction: row;
+}
+
+.search .right div {
+    margin: 0px 10px;
+}
+
+.search .right p {
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.search .right .profile {
+    display: flex;
+    justify-content: center;
+}
+
+.search .right .profile img {
+    border-radius: 50%;
+}
+
+.mobileapp .filter .dropdown {
+    display: flex;
+}
+
+.mobileapp .filter .filter1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.mobileapp .filter .filter1 img {
+    position: absolute;
+    left: 0;
+    margin: 0px 5px;
+}
+
+.mobileapp .filter .filter1 select {
+    /* position: absolute; */
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    /* left: 0; */
+}
+
+.mobileapp .filter .filter2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.mobileapp .filter .filter2 img {
+    position: absolute;
+    left: 0;
+    margin: 0px 5px;
+}
+
+.mobileapp .filter .filter2 select {
+    /* position: absolute; */
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    /* left: 0; */
+}
