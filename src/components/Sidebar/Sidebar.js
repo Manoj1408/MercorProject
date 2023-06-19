@@ -56,16 +56,18 @@ function Sidebar() {
           </div>
           <ul>
             <li>
-              <NavLink to='/'>Mobile App</NavLink>
+              <NavLink to="/MercorProject/">Mobile App</NavLink>
             </li>
             <li>
-              <NavLink to='/website-redesign'>Website Redesign</NavLink>
+              <NavLink to="/MercorProject/website-redesign">
+                Website Redesign
+              </NavLink>
             </li>
             <li>
-              <NavLink to='/design-SYstem'>Design System</NavLink>
+              <NavLink to="/MercorProject/design-system">Design System</NavLink>
             </li>
             <li>
-              <NavLink to='/wireframe'>Wireframes</NavLink>
+              <NavLink to="/MercorProject/wireframe">Wireframes</NavLink>
             </li>
           </ul>
         </div>

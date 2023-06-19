@@ -20,7 +20,7 @@ function App() {
           element={<WebsiteRedesign />}
         />
         <Route
-          path="/MercorProject/design-SYstem"
+          path="/MercorProject/design-system"
           element={<DesignSystem />}
         />
         <Route path="/MercorProject/wireframe" element={<Wireframe />} />
