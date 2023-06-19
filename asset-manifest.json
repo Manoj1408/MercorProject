@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MercorProject/static/css/main.68a71e97.css",
-    "main.js": "/MercorProject/static/js/main.c1e032b2.js",
+    "main.js": "/MercorProject/static/js/main.f808c9cb.js",
     "static/media/Plant Care App (Dribbble shot) 1.png": "/MercorProject/static/media/Plant Care App (Dribbble shot) 1.1eb3d86f7b15dba33f64.png",
     "static/media/unsplash_MicqqGyDQ6w.png": "/MercorProject/static/media/unsplash_MicqqGyDQ6w.a1bb3fe8a9c383f07086.png",
     "static/media/unsplash_KIqJfzbII9w.png": "/MercorProject/static/media/unsplash_KIqJfzbII9w.71c2ee579213e5ee77c3.png",
@@ -9,10 +9,10 @@
     "static/media/logo.svg": "/MercorProject/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/MercorProject/index.html",
     "main.68a71e97.css.map": "/MercorProject/static/css/main.68a71e97.css.map",
-    "main.c1e032b2.js.map": "/MercorProject/static/js/main.c1e032b2.js.map"
+    "main.f808c9cb.js.map": "/MercorProject/static/js/main.f808c9cb.js.map"
   },
   "entrypoints": [
     "static/css/main.68a71e97.css",
-    "static/js/main.c1e032b2.js"
+    "static/js/main.f808c9cb.js"
   ]
 }
